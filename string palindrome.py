@@ -7,4 +7,3 @@ if temp == string:
     print("This string is a palindrome")
 else:
     print("This string is not a palindrome")
-    
