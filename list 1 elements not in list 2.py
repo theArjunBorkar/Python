@@ -1,7 +1,7 @@
 def unique_elements(list_1, list_2):
     unique_list = []
     for i in range(len(list_1)):
-        if list_1[i] not in list_2[i]:
+        if list_1[i] not in list_2:
             unique_list.append(list_1[i])
     return unique_list
 list_1 = eval(input("Enter list 1 elements: "))
